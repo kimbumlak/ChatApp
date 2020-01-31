@@ -47,8 +47,8 @@ public class UsersFragment extends Fragment {
         mUsers = new ArrayList<>();
 
         readUsers();
-        return inflater.inflate(R.layout.fragment_users, container, false);
-        //return view;
+        //return inflater.inflate(R.layout.fragment_users, container, false);
+        return view;
     }
 
     private void readUsers() {
