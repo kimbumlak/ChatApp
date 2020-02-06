@@ -1,4 +1,4 @@
-package com.example.chatapp.Model;
+package com.briankim.chatapp.Model;
 
 public class Chat {
 

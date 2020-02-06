@@ -1,4 +1,4 @@
-package com.example.chatapp.Adapter;
+package com.briankim.chatapp.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.chatapp.MessageActivity;
-import com.example.chatapp.Model.Chat;
-import com.example.chatapp.Model.User;
-import com.example.chatapp.R;
+import com.briankim.chatapp.MessageActivity;
+import com.briankim.chatapp.Model.Chat;
+import com.briankim.chatapp.Model.User;
+import com.briankim.chatapp.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

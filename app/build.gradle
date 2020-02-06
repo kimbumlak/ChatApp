@@ -5,7 +5,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.chatapp"
+        applicationId "com.briankim.chatapp"
         minSdkVersion 16
         //minSdkVersion 26
         targetSdkVersion 29

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chatapp">
+    package="com.briankim.chatapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -13,23 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResetPasswordActivity"
-            android:parentActivityName=".LoginActivity"></activity>
-        <activity android:name=".MessageActivity" />
-        <activity android:name=".StartActivity">
+        <activity android:name="com.briankim.chatapp.ResetPasswordActivity"
+            android:parentActivityName="com.briankim.chatapp.LoginActivity"></activity>
+        <activity android:name="com.briankim.chatapp.MessageActivity" />
+        <activity android:name="com.briankim.chatapp.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.briankim.chatapp.MainActivity" />
         <activity
-            android:name=".RegisterActivity"
-            android:parentActivityName=".StartActivity" />
+            android:name="com.briankim.chatapp.RegisterActivity"
+            android:parentActivityName="com.briankim.chatapp.StartActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:parentActivityName=".StartActivity" />
+            android:name="com.briankim.chatapp.LoginActivity"
+            android:parentActivityName="com.briankim.chatapp.StartActivity" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.chatapp;
+package com.briankim.chatapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

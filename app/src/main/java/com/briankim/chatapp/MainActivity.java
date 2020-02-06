@@ -1,4 +1,4 @@
-package com.example.chatapp;
+package com.briankim.chatapp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,11 +16,11 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.chatapp.Fragments.ChatsFragment;
-import com.example.chatapp.Fragments.ProfileFragment;
-import com.example.chatapp.Fragments.UsersFragment;
-import com.example.chatapp.Model.Chat;
-import com.example.chatapp.Model.User;
+import com.briankim.chatapp.Fragments.ChatsFragment;
+import com.briankim.chatapp.Fragments.ProfileFragment;
+import com.briankim.chatapp.Fragments.UsersFragment;
+import com.briankim.chatapp.Model.Chat;
+import com.briankim.chatapp.Model.User;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;

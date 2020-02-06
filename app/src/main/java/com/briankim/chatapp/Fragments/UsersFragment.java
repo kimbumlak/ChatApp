@@ -1,7 +1,5 @@
-package com.example.chatapp.Fragments;
+package com.briankim.chatapp.Fragments;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -16,9 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import com.example.chatapp.Adapter.UserAdapter;
-import com.example.chatapp.Model.User;
-import com.example.chatapp.R;
+import com.briankim.chatapp.Adapter.UserAdapter;
+import com.briankim.chatapp.Model.User;
+import com.briankim.chatapp.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

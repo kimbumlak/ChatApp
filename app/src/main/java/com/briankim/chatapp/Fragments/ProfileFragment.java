@@ -1,8 +1,7 @@
-package com.example.chatapp.Fragments;
+package com.briankim.chatapp.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -19,8 +18,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.chatapp.Model.User;
-import com.example.chatapp.R;
+import com.briankim.chatapp.Model.User;
+import com.briankim.chatapp.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;

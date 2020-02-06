@@ -1,4 +1,4 @@
-package com.example.chatapp.Model;
+package com.briankim.chatapp.Model;
 
 public class Chatlist {
     public String id;

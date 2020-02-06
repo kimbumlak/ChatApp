@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:707393240029:android:b7ec488e7e13eb0d86d434",
         "android_client_info": {
-          "package_name": "com.example.chatapp"
+          "package_name": "com.briankim.chatapp"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "707393240029-knol79i4vi06sgutm295dudqam6k69ev.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.chatapp",
+            "package_name": "com.briankim.chatapp",
             "certificate_hash": "bcafdd9a79f250da500a8554d253b4469920ad6f"
           }
         },
